@@ -1,58 +1,77 @@
 body {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 header {
-margin-top: 60px;
+  margin-top: 60px;
 }
 #logo img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 240px;
-    height: 240px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 240px;
+  height: 240px;
 }
 .subtitle {
   text-align: center;
-  color: #8F8F8F;
+  color: #8f8f8f;
   font-size: 15px;
 }
 .navpage {
   font-size: 16px;
   text-align: center;
 }
- .navpage {
-    padding: 20px; 
-    text-transform: uppercase;
-   }
-   
+.navpage {
+  padding: 20px;
+  text-transform: uppercase;
+}
+
 .navpage a {
   text-decoration: none;
   color: #999999;
   padding: 10px;
 }
 a.active {
-  color: black; 
- }
- a:hover {
-  color: black; 
- }
+  color: black;
+}
+a:hover {
+  color: black;
+}
 .content h1 {
-  margin: 100px;
-  color: #83539D;
+  margin: 50px;
+  color: #83539d;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   text-transform: uppercase;
 }
-.navmenu { 
-  margin: 0 auto; 
+.navmenu {
+  margin: 0 auto;
 }
-.navlink { 
+.navlink {
   margin: 60px;
-  display: flex; 
-  justify-content: center; 
+  display: flex;
+  justify-content: center;
 }
 .navlink img {
   width: 30px;
   height: 30px;
   padding: 20px;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+}
+.project {
+  width: 320px;
+  height: 200px;
+  margin-right: 40px;
+  filter: grayscale(100%);
+}
+.project:hover {
+  filter: none;
+}
+.last {
+  margin-right: 0px;
+}
+.project:not(:last-child) {
+  margin-right: 100px;
 }
