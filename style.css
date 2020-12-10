@@ -37,11 +37,13 @@ a:hover {
   color: black;
 }
 
-#photo img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 40px;
+.container {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+#photo {
   width: 400px;
   height: 305px;
 }
